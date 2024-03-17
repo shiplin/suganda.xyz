@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <p style="text-align: center; font-size:10rem">Sugandese nuts.</p>
+    <p>Sugandese nuts.</p>
 </body>
 
 <style>
@@ -16,7 +16,12 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        min-height: 100vh;
+        height: 100vh;
+    }
+
+    p {
+        text-align: center;
+        font-size: clamp(5rem, 10vw, 10rem);
     }
 </style>
 
